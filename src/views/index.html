@@ -5,11 +5,17 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Lucky Eights</title>
+ <style>
+  #winner {
+   display: none;
+   color: forestgreen;
+  }
+ </style>
 </head>
 <body>
  <h1>Welcome to TheEight Land!</h1>
-
- <button>Generate Number!</button>
+ <h3>Lucky number: <span id="number"></span> <span id="winner">Congratulation!!!</span></h3>
+ <button id="button">Generate Number!</button>
 
  <script src="./main.js"></script>
 </body>
